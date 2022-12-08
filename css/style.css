@@ -1,0 +1,661 @@
+body{
+	margin: 0;
+	margin-bottom: 40px;
+	/*background: blue;*/
+}
+
+.btn{
+	display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 45px;
+    cursor: pointer;
+}
+.orderBtn{
+	padding: 10px 30px;
+    display: inline-block;
+    margin: 15px 0 30px 0;
+    border: none;
+    border-radius: 45px;
+    background: #8E44AD;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+
+}
+
+.sectionGap{
+	padding-top: 50px;
+	padding-bottom: 20px;
+
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 5px 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+	
+
+}
+
+ .headingSubText{
+text-align: center;
+font-size: 24px;
+color: #666666;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+margin-bottom: 0;
+
+}
+ .headingText{
+text-align: center;
+  font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333333;
+    padding-bottom: 10px;
+
+}
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+
+.wrapper{
+	width: 100%;
+}
+
+.topBanner{
+	width: 100%;
+	background: url('../img/topBannerBg.png');
+	min-height: 500px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover; 
+}
+.container{
+	width: 85%;
+	margin:0 auto;
+
+}
+.navBar{
+	width: 100%;
+
+}
+.leftBar{
+	width: 20%;
+	float: left;
+}
+.leftBar a{
+	display: inline-block;
+	margin: 20px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 30px;
+		font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+.rightBar{
+width: 80%;
+	float: left;	
+}
+.rightBar a{
+	display: inline-block;
+	margin: 20px;
+	padding: 5px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+
+	position: relative;
+}
+.rightBar a:before {
+    content: "";
+    position: absolute;
+    background: #f3eeee;
+    height: 3px;
+    bottom: -10%;
+    width: 0;
+    left:37%;
+    transition: 1s;
+}
+
+.rightBar a:hover:before {
+    height: 3px;
+    bottom: -10%;
+    width: 31%;
+    left: 40%;
+    transition: 1s;
+}
+.content{
+	width: 100%;
+	overflow: hidden;
+
+}
+
+.content .contentLeft{
+float: left;
+width: 50%;
+
+
+}
+.content .contentLeft h2{
+font-size: 60px;
+color: #FFFFFF;
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+    margin-bottom: 0;
+
+}
+.content .contentLeft p{
+font-size: 16px;
+color: #FFFFFF;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+line-height: 2;
+
+}
+.content .contentRight{
+	float: left;
+	width: 50%;
+	
+}
+.content .contentRight img{
+	width: 100%;
+	height: 550px;
+	
+}
+
+/*about section css start here*/
+.aboutleftText img{
+	height: 400px;
+}
+.aboutrightText{
+	margin-top: 45px;
+ 
+}
+
+.aboutrightText h6{
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+font-size: 24px;
+color: #666666;
+}
+
+.aboutrightText h3{
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+font-size: 36px;
+color: #333333;
+}
+.aboutrightText .text{
+font-family: 'Open Sans', sans-serif;
+font-weight: 600;
+font-size: 20px;
+color: #666666;	
+}
+
+.aboutrightText p{
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: #8A8A8A;	
+}
+.aboutbtn{
+	font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+font-size: 16px;
+	background:linear-gradient(to right,#9143A4,#BB3A38);
+}
+/*about section css end here*/
+
+
+/*mobile section css start here*/
+
+.mobile{
+	background: url('../img/mobilebg.jpg');
+	width: 100%;
+
+	min-height: 450px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover; 
+	/*background: #F6F6F6!important;*/
+}
+.mobileImg{
+	width: 100%;
+	height: 530px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+} 
+
+.mobileLeftText{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.mobileLeftText h6{
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+font-size: 24px;
+color: #666666;
+}
+
+.mobileLeftText h3{
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+font-size: 36px;
+color: #333333;
+}
+
+
+.content .mobileLeftText p{
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: #8A8A8A;	
+
+}
+.content .mobileLeftText .leftSide{
+	width: 100%;
+}
+.content .mobileLeftText .leftSide .left{
+	width: 8%;
+    float: left;
+    margin-top: 10px;
+    background: linear-gradient(to right,#94439D,#B73B43);
+    margin-right: 6px;
+    border-radius: 23px;
+    /*padding-right: 10px;*/
+	
+}
+.content .mobileLeftText .leftSide .left .fa{
+    padding: 10px;
+    font-size: 25px;
+    margin-left: 5px;
+    color: #FFFFFF;
+
+}
+.content .mobileLeftText .leftSide .right{
+	width: 89%;
+	float: left;
+	margin-left: 6px;
+
+}
+.content .mobileLeftText .leftSide .right h4{
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+font-size: 18px;
+color: #707070;	
+margin-bottom: 0;
+}
+.content .mobileLeftText .leftSide .right p{
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: #8A8A8A;	
+margin-top: 6px;
+padding-right: 50px;
+}
+
+/*mobile section css end here*/
+
+/*awesome section css start here*/
+
+.awesome .container .content{
+	padding-top: 45px;
+}
+.awesome .content .left{
+width: 33%;
+float:left;
+
+}
+.awesome .content .left-text{
+	width: 100%;
+}
+.awesome .content .left-text .fa{
+background: #FFFFFF;
+color: red;
+font-size: 24px;
+
+}
+.awesome .content .left-text span{
+margin-left: 10px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+font-size: 20px;
+color: #333333;	
+
+
+
+}
+.awesome .content .leftTop{
+padding-top: 15px;	
+
+
+}
+.awesome .content .left-text p{
+font-family: 'Open Sans', sans-serif;
+text-align: justify;
+font-weight: 400;
+font-size: 16px;
+color: #ACACAC;	
+padding-right: 40px;
+
+}
+.awesome .content .middle{
+width: 33%;
+float:left;
+}
+
+.awesome .content .middle img{
+height: 350px;
+width: 85%;
+}
+
+.awesome .content .right{
+width: 33%;
+float:left;
+
+}
+
+/*awesome section css end here*/
+
+/*apps section css start here*/
+
+.apps{
+	background: #F6F6F6;
+	width: 100%;
+	overflow: hidden;
+}
+.appsContainer{
+width: 92%;
+margin:0 auto;
+
+/*background: red;*/
+}
+
+.appsImg{
+	padding-top: 30px;
+	float: left;
+	width: 18%;
+	margin-right: 25px;
+}
+.appsImg:last-child{
+	margin-right: 0;
+}
+.appsImg img{
+	width: 100%;
+	height: 300px;
+
+}
+/*apps section css end here*/
+
+
+/*pricing css start here*/
+.pricing{
+	background: #FFFFFF;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+.pricing-body{
+	width: 100%;
+	margin-top: 50px;
+}
+.pricing-body .card{
+	width: 33.3%;
+	float: left;
+	/*border: 2px solid;*/
+	text-align: center;
+	position: relative;
+	box-shadow: 0px 2px 5px gray;
+
+}
+.card h4{
+	text-transform: uppercase;
+	padding-top: 30px;
+	font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+font-size: 30px;
+}
+.cardText{
+	padding-top: 40px;
+    margin-top: 100px;
+}
+.card h6{
+	font-family: 'Open Sans', sans-serif;
+
+font-weight: 400;
+font-size: 16px;
+padding-top: 7px;
+padding-bottom: 8px;
+
+}
+.cadrBtn{
+	text-align: right;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    width:50%;
+    background: linear-gradient(to right,#9243A3,#BB3A35);
+    padding: 12px;
+    border: none;
+    border-radius: 40px 0 0 40px;
+   font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+font-size: 36px;
+color: #FFFFFF;
+text-align: center;
+
+}
+.card span{
+	font-size: 20px;
+
+}
+.orderBtn:hover{
+	background: linear-gradient(to right,#9043A7,#BA3A3A);
+transition: 1s;
+}
+
+/*pricing css end here*/
+
+/*count section css start here*/
+.count-card{
+	width: 100%;
+	background: #F6F6F6;
+	overflow: hidden;
+
+}
+.count-card>.card{
+	width: 33.3%;
+	float: left;
+	text-align: center;
+	
+	padding: 15px 0;
+}
+
+.count-card> .card h3{
+font-family: 'Open Sans', sans-serif;
+
+font-weight: 700;
+font-size: 40px;
+color: #333333;
+
+
+}
+.count-card> .card p{
+   font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+font-size: 24px;
+color: #666666;
+margin-top: 5px;
+
+
+}
+/*count section css end here*/
+
+
+/*video section css start here*/
+
+.video{
+    text-align: center;
+    background: linear-gradient(to right,#8F4B8E,#A7464F);
+    min-height: 300px;
+    margin-top: -20px;
+    position: relative;
+    overflow: hidden;
+   
+}
+
+.boderWrap{
+
+     width: 10%;
+    position: absolute;
+    top: 30px;
+    left: 40%;
+    height: 125px;
+ 
+}
+.top{
+	
+	 height: 70%;
+    width: 70%;
+    margin: 17px auto;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+.middle{
+     height: 83%;
+    width: 83%;
+    margin: 7px auto;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+.last{
+      height: 73%;
+    width: 73%;
+    margin: 9px auto;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.videoIcon{
+position: absolute;
+    top: 46%;
+    left: 51%;
+    font-size: 24px;
+    color: #FFFFFF;
+    transform: translate(-46%,-51%);
+}
+.video p{
+	font-family: 'Open Sans', sans-serif;
+
+font-weight: 600;
+	    top: 35%;
+    position: absolute;
+    text-align: center;
+    left: 25%;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+/*video section css end here*/
+
+/*team section css start here*/
+
+.team{
+
+}
+.team .content .card{
+	width: 24%;
+	float: left;
+	margin-left: 15px;
+	position: relative;
+	height: 370px;
+
+
+}
+.team .content .card:first-child{
+
+	margin-left: 0;
+
+
+}
+.team .content .card img{
+	width: 100%;
+	height: 100%;
+
+	
+}
+/*.team .content .card .hoverBg{
+	width: 100%;
+	height: 100%;
+}*/
+
+/*.team .content .card .hoverText{
+	position: absolute;
+	width: 90%;
+	top: 26%;
+	left: -100%;
+	/*display: none;*/
+
+
+/*}*/
+/*.team .content .card:hover{
+	
+	 z-index: 9999;
+}*/
+.team .content .card .hoverBgs{
+	height: 100%;
+	width: 100%;
+	background: red;
+	z-index: 9999;
+	/*background: linear-gradient(#8F4B8E,#A7464F);*/
+}
+/*.team .content .card:hover .hoverText{
+
+	height: 100%;
+	width: 100%;
+	left: 0;
+	transition: 1s;
+	
+}*/
+/*.team .content .card .hoverText h4{
+	   font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+font-size: 24px;
+color: #FFFFFF;
+/*color: #666666;
+margin-top: 5px;*/
+text-align: center;
+ }
+
+.team .content .card .hoverText .subText{
+		font-family: 'Open Sans', sans-serif;
+
+font-weight: 400;
+	   font-size: 14px;
+	   color: #FFFFFF;
+	   text-align: center;
+
+}
+.team .content .card .hoverText p{
+
+	text-align: center;
+}*/
+/*.team .content .card .hoverText .fa{
+	color: #FFFFFF;
+	border:1px solid #FFFFFF;
+	padding: 10px;
+	border-radius: 50px;
+	margin-left: 5px;
+	text-align: center;
+}*/
+/*team section css end here*/
